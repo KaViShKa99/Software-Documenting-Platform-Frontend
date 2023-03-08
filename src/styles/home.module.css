@@ -1,0 +1,61 @@
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightAlignment {
+  display: felx;
+  float: right;
+  margin-right: 20%;
+  /* margin-top: 1%; */
+  /* margin-bottom: 2%; */
+}
+.content {
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9%;
+}
+.userName {
+  float: right;
+  margin-right: 15%;
+  margin-top: 3%;
+  font-size: 20px;
+  font-weight: 300;
+}
+.projectBtn {
+  border: none;
+  font-size: 20px;
+  width: 10rem;
+  height: 8rem;
+  color: white;
+  background-color: rgb(155, 59, 164);
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  transition: 500ms ease-in-out;
+}
+.projectBtn:hover {
+  transform: scale(1.1);
+  background-color: rgb(190, 137, 195);
+  color: black;
+  border: solid purple 1px;
+}
+.addProjectBtnPos {
+  float: right;
+  margin-top: 4%;
+  margin-right: -8%;
+}
+.addProjectBtn {
+  border: none;
+  border: solid rgb(8, 15, 210) 1px;
+  width: 10rem;
+  height: 3rem;
+  font-size: 20px;
+  background-color: rgb(73, 163, 223);
+  color: white;
+  font-weight: bold;
+  transition: 500ms;
+  border-radius: 1%;
+}
+.addProjectBtn:hover {
+  background-color: rgb(160, 195, 222);
+  border: solid black 1px;
+  color: black;
+}

@@ -1,0 +1,66 @@
+.container {
+  color: black;
+  font-weight: 50px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+.centerAlignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signInBox {
+  /* background-color:rgb(255, 255, 255); */
+  /* background-color:rgb(208, 208, 209); */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 100px;
+  width: 400px;
+  height: 480px;
+  /* border-radius: 3%; */
+}
+.usernameAlignment {
+  position: relative;
+  left: -20%;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+.passwordAlignment {
+  position: relative;
+  left: -21%;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+.topicName {
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  position: relative;
+  top: 3rem;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.loginBtn {
+  border: none;
+  /* border: solid black 0.1px; */
+  width: 14.8rem;
+  height: 2.5rem;
+  background-color: rgb(73, 163, 223);
+  color: white;
+  font-size: 18px;
+  transition: 500ms;
+  /* font-weight: lighter; */
+}
+.loginBtn:hover {
+  background-color: rgb(160, 195, 222);
+  color: rgb(34, 33, 33);
+  /* font-weight: lighter; */
+}
+.contentPos {
+  position: relative;
+  top: 5rem;
+}
+.inputField {
+  height: 2rem;
+  width: 14rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}

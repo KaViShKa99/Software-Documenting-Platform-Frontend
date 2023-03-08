@@ -1,0 +1,28 @@
+.topName {
+  font-size: 30px;
+  position: absolute;
+  top: 4%;
+  right: 40%;
+}
+.closeBtn {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  border: none;
+  width: 2.5rem;
+  height: 2rem;
+  transition: 200ms;
+  color: gray;
+  font-weight: bold;
+}
+.closeBtn:hover {
+  background-color: rgb(220, 8, 8);
+  color: aliceblue;
+}
+.dropboxMenu {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  width: 20em;
+  height: 4em;
+}
